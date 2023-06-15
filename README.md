@@ -12,7 +12,7 @@ language:
 
 ## Model Description
 
-This repo holds the safetensors & diffusers versions of the QR code conditioned ControlNet for Stable Diffusion v1.5 for usage with the Diffusers library.
+This repo holds the safetensors & diffusers versions of the QR code conditioned ControlNet for Stable Diffusion v1.5.
 The Stable Diffusion 2.1 version is marginally more effective, as it was developed to address my specific needs. However, this 1.5 version model was also trained on the same dataset for those who are using the older version.
 
 ## Performance and Limitations
