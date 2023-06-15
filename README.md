@@ -2,9 +2,12 @@
 tags:
 - stable-diffusion
 - controlnet
+- image-to-image
 license: openrail++
 language:
 - en
+library_name: diffusers
+pipeline_tag: image-to-image
 ---
 # QR Code Conditioned ControlNet Models for Stable Diffusion 1.5
 
