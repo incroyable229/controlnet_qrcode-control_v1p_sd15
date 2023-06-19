@@ -6,6 +6,7 @@ tags:
 license: openrail++
 language:
 - en
+- es
 library_name: diffusers
 pipeline_tag: image-to-image
 ---
@@ -67,7 +68,7 @@ condition_image = resize_for_condition_image(source_image, 768)
 init_image = resize_for_condition_image(init_image, 768)
 generator = torch.manual_seed(123121231)
 image = pipe(prompt="a bilboard in NYC with a qrcode",
-             negative_prompt="ugly, disfigured, low quality, blurry, nsfw", 
+             negative_prompt="ugly, disfigured, low quality, blurry", 
              image=init_image,
              control_image=condition_image,
              width=768,
