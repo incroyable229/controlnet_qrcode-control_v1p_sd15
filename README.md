@@ -38,7 +38,7 @@ pipe = StableDiffusionControlNetImg2ImgPipeline.from_pretrained(
     "runwayml/stable-diffusion-v1-5",
     controlnet=controlnet,
     safety_checker=None,
-    torch_dtype=torch.float16
+    torch_dtype=torch.float32
 )
 
 pipe.enable_xformers_memory_efficient_attention()
