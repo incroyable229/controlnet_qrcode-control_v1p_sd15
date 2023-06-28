@@ -3,6 +3,7 @@ tags:
 - stable-diffusion
 - controlnet
 - image-to-image
+- music
 license: openrail++
 language:
 - en
