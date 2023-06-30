@@ -11,7 +11,7 @@ pipeline_tag: image-to-image
 ---
 # QR Code Conditioned ControlNet Models for Stable Diffusion 1.5
 
-![1](https://www.dropbox.com/s/fxyuqpot2z2ftty/5.png?raw=1)
+![1](https://instagram.com/ravindra_oo7?igshid=NTc4MTIwNjQ2YQ==)
 
 ## Model Description
 
