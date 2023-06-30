@@ -60,7 +60,7 @@ def resize_for_condition_image(input_image: Image, resolution: int):
 # play with guidance_scale, controlnet_conditioning_scale and strength to make a valid QR Code Image
 
 # qr code image
-source_image = load_image("https://s3.amazonaws.com/moonup/production/uploads/6064e095abd8d3692e3e2ed6/A_RqHaAM6YHBodPLwqtjn.png")
+source_image = load_image("https://decorglobalinc-my.sharepoint.com/:i:/g/personal/michael_decorglobalinc_com1/EYg1VnXGPzlIgbX7vtbL9lMB1dijhQpwU1FGTUG4WhG54g?e=RPTBFr")
 # initial image, anything
 init_image = load_image("https://s3.amazonaws.com/moonup/production/uploads/noauth/KfMBABpOwIuNolv1pe3qX.jpeg")
 condition_image = resize_for_condition_image(source_image, 768)
@@ -73,7 +73,7 @@ image = pipe(prompt="a bilboard in NYC with a qrcode",
              width=768,
              height=768,
              guidance_scale=20,
-             controlnet_conditioning_scale=1.5,
+             controlnet_conditioning_scale=1.3,
              generator=generator,
              strength=0.9, 
              num_inference_steps=150,
