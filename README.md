@@ -60,7 +60,7 @@ def resize_for_condition_image(input_image: Image, resolution: int):
 # play with guidance_scale, controlnet_conditioning_scale and strength to make a valid QR Code Image
 
 # qr code image
-source_image = load_image("https://s3.amazonaws.com/moonup/production/uploads/6064e095abd8d3692e3e2ed6/A_RqHaAM6YHBodPLwqtjn.png")
+source_image = load_image("https://lexica.art/prompt/199bb7e7-0dfc-4ec3-816f-d958675a2b56")
 # initial image, anything
 init_image = load_image("https://s3.amazonaws.com/moonup/production/uploads/noauth/KfMBABpOwIuNolv1pe3qX.jpeg")
 condition_image = resize_for_condition_image(source_image, 768)
