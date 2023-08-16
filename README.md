@@ -7,7 +7,9 @@ license: openrail++
 language:
 - en
 library_name: diffusers
-pipeline_tag: image-to-image
+pipeline_tag: text-to-image
+metrics:
+- character
 ---
 # QR Code Conditioned ControlNet Models for Stable Diffusion 1.5
 
