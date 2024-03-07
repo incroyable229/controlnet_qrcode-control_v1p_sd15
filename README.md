@@ -6,6 +6,7 @@ tags:
 license: openrail++
 language:
 - en
+- fr
 library_name: diffusers
 pipeline_tag: image-to-image
 ---
