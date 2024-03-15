@@ -62,11 +62,11 @@ def resize_for_condition_image(input_image: Image, resolution: int):
 # qr code image
 source_image = load_image("https://s3.amazonaws.com/moonup/production/uploads/6064e095abd8d3692e3e2ed6/A_RqHaAM6YHBodPLwqtjn.png")
 # initial image, anything
-init_image = load_image("https://s3.amazonaws.com/moonup/production/uploads/noauth/KfMBABpOwIuNolv1pe3qX.jpeg")
+init_image = load_image("https://www.dropbox.com/scl/fi/vn3b3uhwcojm1a2k9tnv2/teste_desenho.jpg?rlkey=tsgmhncuku0f28nl69bh5vi1c&dl=0")
 condition_image = resize_for_condition_image(source_image, 768)
 init_image = resize_for_condition_image(init_image, 768)
 generator = torch.manual_seed(123121231)
-image = pipe(prompt="a bilboard in NYC with a qrcode",
+image = pipe(prompt="vintage sci-fi movie poster",
              negative_prompt="ugly, disfigured, low quality, blurry, nsfw", 
              image=init_image,
              control_image=condition_image,
